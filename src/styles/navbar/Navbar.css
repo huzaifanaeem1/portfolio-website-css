@@ -15,7 +15,7 @@
   @media (min-width: 768px) {
     .navbar-header {
       display: flex;
-      justify-content: center;
+      justify-content: center; 
       align-items: center;
     }
   }
@@ -65,11 +65,11 @@
   .navbar-image {
     width: 3.5rem;
     height: 3.5rem;
-    border-radius: 50%;
+    border-radius: 50%; 
   }
   
   .navbar-secondary-text {
-    color: #567741;
+    color: #52602E;
   }
   
   .navbar-nav {

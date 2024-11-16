@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 import "../../styles/projects/Projects.css";
+import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   const projects = [
@@ -59,18 +60,14 @@ export default function Projects() {
               name={`Project ${project.id} - ${project.name}`}
               image={project.imageSrc}
               alt={`Project ${project.id}`}
-              link={project.link}
+              link={project.link} 
               key={project.id}
             />
           ))}
         </div>
 
         <a href="https://github.com/huzaifanaeem1" target="_blank" rel="noopener noreferrer" className="github-button">
-        <Image 
-        src="/images/github.png" 
-        alt="GitHub Logo" 
-        width={512} 
-        height={512} 
+        <FaGithub className="git-icon"
       />
           <span className="github-button-text">
             <span className="github-button-label">GitHub</span>

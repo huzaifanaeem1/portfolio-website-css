@@ -1,6 +1,6 @@
 .contactSection {
     color: white;
-    background-color: #292524; /* bg-stone-950 */
+    background-color: #0C0A09; /* bg-stone-950 */
     padding-top: 3rem; /* pt-12 */
   }
   
@@ -27,7 +27,7 @@
     font-weight: 900;
     color: white;
     margin-bottom: 1rem; /* mb-4 */
-    padding-top: 4rem; /* pt-16 */
+    padding-top: 2rem; /* pt-16 */
   }
   
 
@@ -57,10 +57,12 @@
     position: absolute;
     inset: 0;
     background-color: var(--primary);
-    height: 24rem; /* h-96 */
-  margin-bottom: 5rem; /* 80px */
-
+    height: 24rem; 
+    margin: 0 1rem; 
+    margin-bottom: 5rem; 
+    border-radius: 0.5rem; 
   }
+  
   
   @media (min-width: 640px) {
     .mapContainer {
@@ -78,12 +80,10 @@
     align-items: center;
     margin-top: 6rem; /* mt-10 */
     margin-bottom: 6rem; /* mt-10 */
-
-
   }
   
   .formCard {
-    background-color: #292524; /* Updated background color */
+    background-color: #0e0d0a; /* Updated background color */
     width: 100%;
     max-width: 30.33%; 
     border-radius: 0.5rem;
@@ -92,7 +92,7 @@
     z-index: 10;
     height: 520px; /* Increased height */
   }
-
+  
   .formTitle {
     font-size: 1.125rem; /* text-lg */
     font-weight: bold;
@@ -115,7 +115,7 @@
   
   .input, .textarea {
     width: 100%;
-    background-color: #292524; /* bg-stone-950 */
+    background-color: #0e0d0a; /* bg-stone-950 */
     border-radius: 0.5rem;
     border: 2px solid var(--primary);
     color: white;
@@ -137,7 +137,6 @@
   }
   
   .submitButton {
-
     color: white;
     background-color: var(--primary);
     border: none;
@@ -154,8 +153,56 @@
   }
   
   .privacyNote {
-    font-size: 0.875rem; /* text-sm */
-    margin-top: 1.5rem; /* mt-3 */
+    font-size: 0.875rem; 
+    margin-top: 1.5rem; 
     color: white;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .formCard {
+      max-width: 80%;
+      padding: 1.5rem;
+      height: auto; 
+    }
+    
+    .formTitle {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .submitButton {
+      font-size: 1rem; 
+      padding: 0.5rem 1rem; 
+    }
+    
+    .privacyNote {
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) { 
+    .formCard {
+      max-width: 100%; /* Full width on small devices */
+      padding: 1rem; /* Smaller padding */
+    }
+    
+    .formTitle {
+      font-size: 0.875rem; /* Smaller title */
+    }
+    
+    .formDescription {
+      font-size: 0.875rem; /* Smaller description */
+    }
+    
+    .input, .textarea {
+      font-size: 0.875rem; /* Adjust input size */
+      padding: 0.25rem 0.5rem; /* Adjust padding */
+    }
+    
+    .submitButton {
+      font-size: 0.875rem; /* Adjust button size */
+      padding: 0.5rem; /* Adjust padding */
+    }
   }
   

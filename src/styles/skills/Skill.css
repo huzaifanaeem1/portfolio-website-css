@@ -1,10 +1,10 @@
 .skillSection {
     background-color: black;
-    padding-top: 5rem; /* pt-20 */
+    padding-top: 2rem; /* pt-20 */
   }
   
   .mainSection {
-    padding-top: 5rem; /* pt-20 */
+    padding-top: 3rem; /* pt-20 */
   }
   
   .header {
@@ -12,13 +12,13 @@
     margin-bottom: 4rem; /* mb-16 */
     padding-top: 2.5rem; /* pt-10 */
   }
-  
+   
   .title {
     font-size: 3.75rem; /* text-6xl */
     font-weight: 900;
     color: white;
     margin-bottom: 1rem; /* mb-4 */
-    padding-bottom: 2rem; /* pb-8 */
+    padding-bottom: 4rem; /* pb-8 */
   }
   
   @media (min-width: 640px) {

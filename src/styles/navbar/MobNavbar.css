@@ -5,8 +5,8 @@
   
   /* Navbar header styling */
   .mobNavbar-header {
-    color:#52602E;
-    background-color: #567741;
+    color: #52602E; 
+    background-color: black;
     font-family: "Roboto", sans-serif;
     width: 100%;
     position: fixed;
@@ -49,7 +49,7 @@
   }
   
   .mob-navbar-secondary-text {
-    color: #181f08;
+    color: #52602E;
   }
   
   .mob-navbar-toggle {

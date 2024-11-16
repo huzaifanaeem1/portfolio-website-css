@@ -73,6 +73,11 @@
     max-width: 100%; 
 }
 
+.git-icon{
+  color: black;
+  width: 2.5rem;
+  height: 2.5rem;
+}
   .github-button:hover {
     background-color: #567741; 
   }
